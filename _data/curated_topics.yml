@@ -1,0 +1,43 @@
+- name: Advent
+  type: tag
+  link: /
+- name: LDS Thoughts
+  type: category
+  link: /
+- name: Nature & Place
+  type: category
+  link: /
+- name: Design
+  type: category
+  link: /
+- name: Technology Ethics
+  type: tag
+  link: /
+- name: LDS Lectionary
+  type: project
+  link: /
+- name: UX Portfolio
+- name: Scripture Journal
+  type: project
+  link: /
+- name: Politics
+  type: category
+  link: /
+- name: Localism
+  type: category
+  link: /
+- name: Books
+  type: page
+  link: /books.html
+- name: Family History
+  type: project
+  link: /
+- name: Drawings
+  type: category
+  link: /
+- name: Photography
+  type: category
+  link: /
+- name: Media & News
+  type: tag
+  link: /

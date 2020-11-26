@@ -10,8 +10,13 @@
     </head>
     <body>
         <main>
-            {% include navigation.html %}
-            {{ content }}
+            <header>
+                <h1>Bryan's Digital Garden</h1>
+                {% include navigation.html %}
+            </header>
+            <section>
+                {{ content }}
+            </section>
         </main>
     </body>
 </html>
