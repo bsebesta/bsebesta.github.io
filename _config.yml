@@ -1,0 +1,24 @@
+
+title: Bryan's Digital Garden
+tagline: A place for my thoughts, designs, writing, and code
+description: A place for the thoughts, designs, writing, and code of Bryan Sebesta
+url: bryansebesta.blog
+author: Bryan Sebesta
+twitter:
+  username: bryan_sebesta
+  card: summary
+social:
+  name: Bryan Sebesta
+  links:
+    - https://twitter.com/bryan_sebesta
+    - https://bsebesta.micro.blog/
+    - https://www.linkedin.com/in/bryansebesta/
+    - https://github.com/bsebesta
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: "/blog/page:num/"

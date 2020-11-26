@@ -1,0 +1,16 @@
+I"6<h1 id="home-page">Home Page</h1>
+
+<p>Welcome to my home page.</p>
+
+<p>Here are some recent posts of mine.</p>
+
+<ul>
+  <li>
+    <p><a href="/2020/11/25/first-post.html">25 Nov 2020 :: First Post</a></p>
+  </li>
+  <li>
+    <p><a href="/2020/11/24/second-post.html">24 Nov 2020 :: Bananas</a></p>
+  </li>
+</ul>
+
+:ET
