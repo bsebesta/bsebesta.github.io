@@ -1,6 +1,6 @@
 ---
-layout: ''
-author: ''
+layout: post
+author: Bryan
 title: 'My First Try with Jekyll '
 
 ---
