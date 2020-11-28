@@ -1,43 +1,52 @@
-- name: Advent
-  type: tag
+- name: Home
+  type: page
   link: /
-- name: LDS Thoughts
-  type: category
-  link: /
-- name: Nature & Place
-  type: category
-  link: /
-- name: Design
-  type: category
-  link: /
-- name: Technology Ethics
-  type: tag
-  link: /
-- name: LDS Lectionary
-  type: project
-  link: /
-- name: UX Portfolio
-- name: Scripture Journal
-  type: project
-  link: /
-- name: Politics
-  type: category
-  link: /
-- name: Localism
-  type: category
-  link: /
+- name: About Me
+  type: page
+  link: /about.html
 - name: Books
   type: page
   link: /books.html
-- name: Family History
-  type: project
-  link: /
-- name: Drawings
-  type: category
-  link: /
-- name: Photography
-  type: category
-  link: /
-- name: Media & News
-  type: tag
-  link: /
+- name: UX Portfolio
+  type: external
+  link: http://portfolio.bryansebesta.com/
+
+#- name: Advent
+#  type: tag
+#  link: /
+#- name: LDS Thoughts
+#  type: category
+#  link: /
+#- name: Nature & Place
+#  type: category
+#  link: /
+#- name: Design
+#  type: category
+#  link: /
+#- name: Technology Ethics
+#  type: tag
+#  link: /
+#- name: LDS Lectionary
+#  type: project
+#  link: /
+#- name: Scripture Journal
+#  type: project
+#  link: /
+#- name: Politics
+#  type: category
+#  link: /
+#- name: Localism
+#  type: category
+#  link: /
+#- name: Family History
+#  type: project
+#  link: /
+#- name: Drawings
+#  type: category
+#  link: /
+#- name: Photography
+#  type: category
+#  link: /
+#- name: Media & News
+#  type: tag
+#  link: /

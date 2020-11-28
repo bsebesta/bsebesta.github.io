@@ -2,18 +2,20 @@
   box-sizing: border-box;
 }
 body {
-    background-color: #B3B5A5;
     display: flex;
     justify-content: center;
     font-family: 'Merriweather', serif;
+    background-color: #F2F2EE;
 }
 a:link,
 a:visited {
-    color: #67695F;
+    color: #3F3F3F;
+    text-decoration: none;
 }
 a:hover,
 a:active {
-    color: #67695F;
+    color: #777777;
+    text-decoration: none;
 }
 main {
     min-width: 500px;
@@ -21,7 +23,7 @@ main {
     margin-top: 70px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between
+    justify-content: space-between;
 }
 main > header {
     padding-bottom: 30px;
@@ -31,6 +33,7 @@ main > section {
     margin-bottom: 10px;
     padding: 30px;
     width: 100%;
+    box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.1);
 }
 main > section:first-of-type {
     border-radius: 8px 8px 0 0;
@@ -75,6 +78,7 @@ a.tag:visited {
     padding: 3px 7px;
     text-decoration: none;
     margin: 4px 2px;
+    border: solid 2px #E6E9D4;
 }
 a.tag,
 a.tag:hover,
@@ -85,11 +89,22 @@ a.tag:active {
     border-radius: 3px;
     padding: 3px 7px;
     text-decoration: none;
+    border: solid 2px #67695F;
+}
+.tag-special {
+    border: solid 2px #898A87 !important;
+}
+a.tag-special:hover,
+a.tag-special:active {
+    border: solid 2px #67695F !important;
 }
 
-#photo_thumb {
-    background-image: url("/assets/images/20200804_light.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% 100%;
+article h1 {
+    margin: 3px 0;
+    padding: 0;
+}
+
+article {
+    padding: 0 0 10px 0;
+    border-bottom: solid 1px #E6E9D4;
 }

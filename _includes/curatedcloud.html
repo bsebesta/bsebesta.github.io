@@ -1,0 +1,5 @@
+{% assign fp_topics = site.data.curated_topics %}
+{% for entry in fp_topics %}
+<a href="{{ entry.link }}" class="tag{% if entry.highlight == true %} tag-special{% endif %}">
+    {{ entry.name }}</a>
+{% endfor %}
