@@ -109,3 +109,6 @@ article {
     padding: 0 0 10px 0;
     border-bottom: solid 1px #E6E9D4;
 }
+blockquote {
+    font-style: italic;
+}
