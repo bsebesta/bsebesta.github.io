@@ -10,12 +10,10 @@ body {
 a:link,
 a:visited {
     color: #3F3F3F;
-    text-decoration: none;
 }
 a:hover,
 a:active {
     color: #777777;
-    text-decoration: none;
 }
 main {
     min-width: 500px;
@@ -77,9 +75,9 @@ a.tag:visited {
     color: #67695F;
     border-radius: 3px;
     padding: 3px 7px;
-    text-decoration: none;
     margin: 4px 2px;
     border: solid 2px #E6E9D4;
+    text-decoration: none;
 }
 a.tag,
 a.tag:hover,
@@ -89,8 +87,8 @@ a.tag:active {
     color: #E6E9D4;
     border-radius: 3px;
     padding: 3px 7px;
-    text-decoration: none;
     border: solid 2px #67695F;
+    text-decoration: none;
 }
 .tag-special {
     border: solid 2px #898A87 !important;

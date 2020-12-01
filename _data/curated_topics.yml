@@ -1,15 +1,12 @@
 - name: Home
   type: page
   link: /
-- name: About Me
-  type: page
-  link: /about.html
 - name: Books
   type: page
   link: /books.html
-- name: UX Portfolio
-  type: external
-  link: http://portfolio.bryansebesta.com/
+- name: Colophon
+  type: page
+  link: /colophon.html
 
 #- name: Advent
 #  type: tag
