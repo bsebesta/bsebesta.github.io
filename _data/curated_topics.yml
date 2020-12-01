@@ -4,6 +4,9 @@
 - name: Books
   type: page
   link: /books.html
+- name: Portfolio
+  type: external
+  link: http://www.bryansebesta.com
 - name: Colophon
   type: page
   link: /colophon.html
