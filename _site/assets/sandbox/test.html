@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Title -->
+    <title>Bryan's Site</title>
+
+    <!-- Meta Information -->
+    <meta charset="utf-8" />
+    <meta name="author" content="Bryan Sebesta">
+    <meta name="description" content="Created X/X/X">
+
+    <!-- Styles -->
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            /* Display & Box-model */
+            margin: 0;
+            padding: 0;
+            display: grid;
+            grid-template-columns: auto 5rem 40rem 5rem auto;
+            grid-template-rows: auto 2em 1fr;
+            gap: 0px 0px;
+            grid-template-areas:
+                "header header header header header"
+                ". . . . ."
+                ". . main . .";
+
+            /* Color & Type */
+            background-color: white;
+            color: hsl(0, 0%, 15%);
+        }
+
+        body>header {
+            /* Positioning */
+            grid-area: header;
+
+            /* Display & Box-model */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 .5em;
+            max-width: 800px;
+
+            /* Color & Type */
+            background-color: hsl(200, 80%, 30%);
+        }
+
+        header>nav {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-end;
+        }
+
+        nav a {
+            display: inline-block;
+            padding: .5em 1em;
+            background-color: hsl(200, 80%, 30%);
+            color: #ddd;
+            border-radius: 3px;
+            margin: .5em;
+            transition: background-color .5s;
+        }
+
+        nav a:hover {
+            background-color: hsl(200, 80%, 40%);
+
+        }
+
+        main {
+            grid-area: main;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="banner">&nbsp;</div>
+
+    <!-- Header -->
+    <header>
+
+        <header>Bryan Sebesta</header>
+
+        <nav>
+
+            <a href="#">/home</a>
+            <a href="#">/blog</a>
+            <a href="#">/wiki</a>
+            <a href="#">/now</a>
+            <a href="#">/site</a>
+
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h1>Test!</h1>
+
+        Have I told you that this is pretty rad?
+
+    </main>
+
+</body>
+
+</html>

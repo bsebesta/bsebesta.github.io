@@ -1,0 +1,12 @@
+- name: Posts
+  slash_name: /posts
+  link: /posts.html
+- name: Reading
+  slash_name: /reading
+  link: /books.html
+- name: Now
+  slash_name: /now
+  link: /now.html
+- name: Site
+  slash_name: /site
+  link: /site-notes.html

@@ -1,112 +1,271 @@
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-body {
-    display: flex;
-    justify-content: center;
-    font-family: 'Merriweather', serif;
-    background-color: #F2F2EE;
-}
-a:link,
-a:visited {
-    color: #3F3F3F;
-}
-a:hover,
-a:active {
-    color: #777777;
-}
-main {
-    min-width: 500px;
-    max-width: 50vw;
-    margin-top: 70px;
-    margin-bottom: 150px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-main > header {
-    padding-bottom: 30px;
-}
-main > section {
-    background-color: #fff;
-    margin-bottom: 10px;
-    padding: 30px;
-    width: 100%;
-    box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 0.1);
-}
-main > section:first-of-type {
-    border-radius: 8px 8px 0 0;
-    border-top: 8px solid #626940;
-}
-main > section.div2 {
-    width: 49%;
-}
-h1,h2,h3,h4,h5,h6 {
-    font-family: 'Montserrat', sans-serif;
-}
-time {
-    font-style: italic;
-    display: block;
-    margin-top: 2rem;
-}
-nav a {
-    padding: 0 .5rem;
-    color: #232623 !important;
-}
-nav a:first-of-type {
-    padding: 0 0rem;
-}
-.current {
-    color: red;
-    font-weight: bold;
-}
-main img {
-    width: 100%;
-}
-div#fp_tagcloud {
-    text-align: center;
-    width: 100%;
-}
-a.tag,
-a.tag:link,
-a.tag:visited {
-    display: inline-block;
-    background-color: #E6E9D4;
-    color: #67695F;
-    border-radius: 3px;
-    padding: 3px 7px;
-    margin: 4px 2px;
-    border: solid 2px #E6E9D4;
-    text-decoration: none;
-}
-a.tag,
-a.tag:hover,
-a.tag:active {
-    display: inline-block;
-    background-color: #67695F;
-    color: #E6E9D4;
-    border-radius: 3px;
-    padding: 3px 7px;
-    border: solid 2px #67695F;
-    text-decoration: none;
-}
-.tag-special {
-    border: solid 2px #898A87 !important;
-}
-a.tag-special:hover,
-a.tag-special:active {
-    border: solid 2px #67695F !important;
-}
+/*
+* I've used the modular scale 1.250, the Major Third (4:5), for
+* this modular scale. This equates to the following:
+*
+* 7x   // 4.768 rem // 95.37px
+* 6x   // 3.815 rem // 76.29px
+* 5x   // 3.052 rem // 61.04px
+* 4x   // 2.441 rem // 48.83px
+* 3x   // 1.953 rem // 39.06px
+* 2x   // 1.563 rem // 31.25px
+* 1x   // 1.250 rem // 25.00px
+* 0x   // 0.000 rem // 20.00px
+* -1x  // 0.800 rem // 12.80px
+* -2x  // 0.640 rem // 10.24px
+*/
 
-article h1 {
-    margin: 3px 0;
-    padding: 0;
-}
+/** Root and Body
+    ============================================================ */
 
-article {
-    padding: 0 0 10px 0;
-    border-bottom: solid 1px #E6E9D4;
-}
-blockquote {
-    font-style: italic;
-}
+    :root {
+
+        /* Color: Monochrome with neutral accents */
+        --color-bg: hsl(0,0%,99%);
+        --color-accent: hsl(208,62%,30%);
+        --color-accent-light: hsl(208,62%,45%);
+        --color-accent-lighter: hsl(208,62%,60%);
+        --color-default: hsl(0,0%,3%);
+        --color-mid: hsl(0,0%,40%);
+        --color-dim: hsl(0,0%,50%);
+        --color-dimmer: hsl(0,0%,80%);
+        --color-dimmest: hsl(0,0%,90%);
+    
+        /* Typography Base */
+        --type-scale-base: 22px;
+        --type-line-height: 1.25;
+        --body-width: 30rem;
+    
+        /* Type Scale (4:5, Major Third) */
+        --type-scale-7: 4.768rem;
+        --type-scale-6: 3.815rem;
+        --type-scale-5: 3.052rem;
+        --type-scale-4: 2.441rem;
+        --type-scale-3: 1.953rem;
+        --type-scale-2: 1.563rem;
+        --type-scale-1: 1.25rem;
+        --type-scale-neg-1: .8rem;
+        --type-scale-neg-2: .64rem;
+    
+        /* Root Typography Family */
+        font-family: ff-scala, sans-serif;
+        font-size: var(--type-scale-base);
+        font-style: normal;
+        font-weight: 400;
+        line-height: var(--type-line-height);
+        color: var(--color-default);
+    
+    }
+    
+    * { box-sizing: border-box; }
+    
+    body {
+
+        /* Other Display Rules */
+        margin: 0;
+        padding-bottom: 6rem;
+
+        /* Color */
+        background-color: var(--color-bg);
+
+    }
+
+    #body-with-sidebar {
+        /* Grid information */
+        display: grid;
+        grid-template-columns: auto minmax(auto,var(--body-width)) 15rem auto;
+        grid-template-rows: auto minmax(2.1rem,auto) auto;
+        grid-template-areas:
+            'nav nav nav nav'
+            '. . . .'
+            '. content sidebar .';
+        column-gap: 1rem;
+    }
+
+    #body-no-sidebar {
+        /* Grid information */
+        display: grid;
+        grid-template-columns: auto minmax(auto,var(--body-width)) auto;
+        grid-template-rows: auto minmax(2.1rem,auto) auto;
+        grid-template-areas:
+            'nav nav nav'
+            '. . .'
+            '. content .';
+    }
+
+    #sidebar {
+        grid-area: sidebar;
+        font-size: var(--type-scale-neg-1);
+    }
+    
+    /** Key Elements
+        ============================================================ */
+    
+    h1 {
+        font-family: ff-scala-sans-pro, sans-serif;
+        font-size: var(--type-scale-3);
+        margin: 0;
+    }
+
+    main h1:first-of-type,
+    #sidebar h1 {
+        font-size: var(--type-scale-1);
+        border-bottom: solid 1px var(--color-dim);
+        width: 90%;
+    }
+    
+    h2 {
+        font-family: ff-scala-sans-pro, sans-serif;
+        font-size: var(--type-scale-2);
+        margin: 0;
+    }
+    
+    h3 {
+        font-family: ff-scala-sans-pro, sans-serif;
+        font-size: var(--type-scale-1);
+        margin: 0;
+    }
+    
+    h4 {
+        font-size: var(--type-scale-base);
+        margin: 0;
+    }
+    
+    a {
+        color: var(--color-accent);
+    }
+    
+    a:link,
+    a:visited {
+        text-decoration: none;
+    }
+    
+    a:hover,
+    a:active {
+        color: var(--color-accent-light);
+        text-decoration: underline;
+    }
+    
+    a.active {
+        font-weight: 700;
+    }
+    
+    /** ============================================================
+        NAVIGATION BAR(S)
+        ============================================================ */
+
+    .banner-bg-default {
+        grid-column: 1/4;
+    }
+
+    .banner-bg-sidebar {
+        grid-column: 1/5;
+    }
+
+    .banner-bg {
+        grid-row: 1/2;
+        padding: .6rem;
+        background-color: var(--color-accent);
+    }
+
+    .banner {
+        grid-area: nav;
+        width: auto;
+        margin: .8rem auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+        font-size: var(--type-scale-neg-1);
+        font-family: ff-scala-sans-pro, sans-serif;
+    }
+
+    .banner span {
+        display: inline-block;
+    }
+    
+    .banner a {
+        color: var(--color-bg);
+        text-decoration: none;
+        transition: transform .2s, background-color .2s;
+        transition-timing-function: ease-out;
+        padding: .3rem .8rem;
+        margin: 0 .2rem;
+        border-radius: 4px;
+        color: var(--color-bg);
+    }
+
+    .banner a:hover,
+    .banner a:active {
+        transform: scale(1.02);
+        background-color: var(--color-accent-light);
+    }
+
+    .banner-title {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        color: var(--color-bg);
+        font-family: ff-scala, sans-serif;
+        font-variant: small-caps;
+    }
+
+    .banner-title a {
+        margin-left: -.8em;
+    }
+
+    .banner-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--color-bg);
+    }
+    
+    /***
+    #banner1 span::before {
+        content:"•";
+        color: var(--color-accent-dark);
+        margin: 0 20px;
+    }
+    
+    #banner1 span:first-of-type::before {
+        content:"";
+        margin: 0;
+    }
+    ***/
+    
+    /** ============================================================
+        HEADER
+        ============================================================ */
+    
+    /** Hero
+        ============================================================ */
+    
+    .hero section {
+        width: 35rem;
+        font-size: var(--type-scale-5);
+        flex-flow: row nowrap;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2.5rem;
+    }
+    
+    .hero-accent {
+        color: var(--color-accent);
+    }
+    
+    /** ============================================================
+        MAIN
+        ============================================================ */
+    
+    main {
+        grid-area: content;
+    }
+    
+    hr {
+        border: var(--color-dimmest) solid .25px;
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+    
+    /** Multi-column list
+        ============================================================ */

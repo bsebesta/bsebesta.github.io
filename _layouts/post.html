@@ -1,11 +1,6 @@
 {% include header.html %}
 
-            <section>
-                <time datetime="{{ page.date }}">{{ page.date | date_to_string }}</time>
-                {% if page.title %}
-                    <h1>{{ page.title }}</h1>
-                {% endif %}
-                {{ content }}
-            </section>
+<h2>{{ page.title }}</h2>
+{{ content }}
 
 {% include footer.html %}

@@ -1,0 +1,17 @@
+I"o<h1 id="site-notes">Site Notes</h1>
+
+<p>This is my website’s <a href="https://garrickvanburen.com/yes-all-software-should-have-a-philosophy-txt-file/">philosophy.txt</a>, my <a href="https://www.patrickrhone.net/site-notes/">site notes</a>, my rules and regulations for my little site and all that’s on it.</p>
+
+<ul>
+  <li>
+    <p>This will be where I put everything I write from now on. In Indieweb terms, I’m going full <a href="https://indieweb.org/POSSE">POSSE</a>, an acronym that stands for “Publish (on your) Own Site, Syndicate Elsewhere.”</p>
+  </li>
+  <li>
+    <p>While I technically have a blog here, this site isn’t primarily a blog. It’s more a digital garden: tended, curated, growing up organically. The idea of a “digital garden” is inspired by Tom Critchlow’s 2019 post <a href="https://tomcritchlow.com/2019/02/17/building-digital-garden/">Building a Digital Garden</a>. My two favorite articles on the concept of “digital gardening” include Maggie Appleton’s <a href="https://maggieappleton.com/garden-history">A Brief History and Ethos of the Digital Garden</a> and Joel Hooks’ <a href="https://joelhooks.com/digital-garden">My blog is a digital garden, not a blog</a>.</p>
+  </li>
+</ul>
+
+<h3 id="colophon">Colophon</h3>
+
+<p>This site was developed using <a href="https://jekyllrb.com/">Jekyll</a> and is hosted on <a href="https://pages.github.com/">GitHub pages</a>. The underlying code is very simple, but lovingly tended, HTML and CSS. The fonts used are from Martin Majoor’s <a href="http://www.martinmajoor.com/1_scala.html">Scala</a> family, in both the serif and sans-serif varieties.</p>
+:ET
