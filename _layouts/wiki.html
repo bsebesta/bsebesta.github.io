@@ -1,0 +1,42 @@
+{% include header.html %}
+
+{{ content }}
+
+{% assign title_tag = page.related-tag %}
+{% assign pg_directory = page.dir | remove_first: '/' %}
+
+<!-- Posts -->
+{% if site.tags.[title_tag] %}
+<h2>Related Posts</h2>
+
+<ul>
+    {% for post in site.tags.[title_tag] %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+<!-- Markdown Files -->
+{% assign wiki_markdown = true %}
+{% for item in site.pages %}
+{% if item.path contains pg_directory %}
+{% unless item.path contains "index.md" %}
+{% if wiki_markdown == true %}<h2>Notes</h2>{% assign wiki_markdown = false %}{% endif %}
+<h3>{{ item.title }}</h3>
+{{ item.content | markdownify }}
+{% endunless %}
+{% endif %}
+{% endfor %}
+
+<!-- Images -->
+{% assign wiki_images = true %}
+{% for item in site.static_files %}
+{% if item.path contains pg_directory %}
+{% if item.name contains ".jpg" or item.name contains ".jpeg" or item.name contains ".png"  %}
+{% if wiki_images == true %}<h2>Related Images</h2>{% assign wiki_images = false %}{% endif %}
+<img src="{{ item.path }}">
+{% endif %}
+{% endif %}
+{% endfor %}
+
+{% include footer.html %}

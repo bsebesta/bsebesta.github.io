@@ -1,6 +1,5 @@
 ---
 layout: default
-sidebar: fp-postlist
 title: Home Page
 ---
 # About Me

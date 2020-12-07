@@ -260,6 +260,10 @@
     main {
         grid-area: content;
     }
+
+    main img {
+        max-width: var(--body-width);
+    }
     
     hr {
         border: var(--color-dimmest) solid .25px;

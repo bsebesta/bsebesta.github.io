@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: wiki
 title: Advent
-wiki_list: true
+related-tag: advent
+wiki-list: true
 ---
 # Advent
 
