@@ -442,6 +442,7 @@ html {
     main {
         width: var(--type-line-length);
         margin-top: 3rem;
+        margin-bottom: 10rem;
     }
     
     /** ============================================================
