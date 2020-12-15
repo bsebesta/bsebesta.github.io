@@ -1,0 +1,19 @@
+---
+layout: post
+author: Bryan
+title: From Systematic Planners to Long-term Improvisers
+
+---
+My brother recently asked me when I thought I'd buy a house. Not only was I incapable of formulating a good answer–I really _don't_ know–but I also struggled to come up with good criteria for answering the question. Buying a house is a major commitment to a _place_, and it depends on things in life (especially my job prospects) _settling_.
+
+But in many ways, this year has been _unsettling_: I started in New York City, and then the pandemic hit. I lived several months with my parents in California, and have now "settled" in Utah, living near family here. But I'm still not sure what's coming next. I still have my job, but it could change in an instant, as it has for many of my friends. And if so, am I entirely sure I want to continue doing what I'm doing in my career? Much as I like Utah, do I want to spend many more years here? Will family stay? And what, of course, will happen with the pandemic? Will things be fixed soon? Will my work reopen in New York City, or will we work remotely forever?
+
+In other words, it feels so hard to make long-terms plans. To form a strategy. I was feeling bad about this, but then I read Alan Jacobs' new essay called [From Tech Critique to Ways of Living](https://www.thenewatlantis.com/publications/from-tech-critique-to-ways-of-living), and in it he makes this point:
+
+> We might think of the shifting relationship of human beings to the natural world in the terms offered by German sociologist Gerd-Günter Voß, who has traced our movement through three different models of the “conduct of life.” The first, and for much of human history the only conduct of life, is what he calls the _traditional_. Your actions within the traditional conduct of life proceed from social and familial circumstances, from what is thus handed down to you. In such a world it is reasonable for family names to be associated with trades, trades that will be passed down from father to son: Smith, Carpenter, Miller. But the rise of the various forces that we call “modernity” led to the emergence of the _strategic_ conduct of life: a life with a plan, with certain goals — to get into law school, to become a cosmetologist, to get a corner office.
+>
+> Quite recently, thanks largely to totalizing technology’s formation of a world in which, to borrow a phrase from Marx and Engels, “[all that is solid melts into air](https://www.marxists.org/archive/marx/works/1848/communist-manifesto/ch01.htm),” the strategic model of conduct is replaced by the _situational_. Instead of being systematic planners, we become agile improvisers: If the job market is bad for your college major, you turn a side hustle into a business. But because you know that your business may get disrupted by the tech industry, you don’t bother thinking long-term; your current gig might disappear at any time, but another will surely present itself, which you will assess upon its arrival.
+
+This helped bring clarity to my question. I, and many of my friends, am being forced away from the _strategic_ conduct of life–a life with a plan–to become agile improvisers.
+
+And I think that–_that_ sense, that this could change anytime, and so long-term planning becomes less useful–is what makes answering my brothers's question hard. I don't know when I'll buy a house, or even if I'll _ever_ buy a house. (#rentForLife) Being an agile improviser is really important these days, and I accept that. There are perks, too, that can come with that: being resilient in a fast-paced world, being adaptable, capable of learning new skills. But I know I _want_ to find somewhere I can settle in, eventually: a place to call home, a [thick place](http://www.dkolb.org/sprawlingplaces/generalo/complexi/thickver.html) that I can belong to.
