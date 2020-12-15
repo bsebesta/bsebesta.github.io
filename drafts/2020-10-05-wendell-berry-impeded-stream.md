@@ -1,7 +1,0 @@
----
-layout: post
-author: Bryan
----
-[Wendell Berry (cited):](https://breakingground.us/going-dark/)
-
-> “It may be that when we no longer know what to do we have come to our real work, and that when we no longer know which way to go we have come to our real journey. The mind that is not baffled is not employed. The impeded stream is the one that sings.”
