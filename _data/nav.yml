@@ -1,8 +1,8 @@
 - name: Posts
   slash_name: /posts
   link: /posts.html
-- name: Reading
-  slash_name: /reading
+- name: Books
+  slash_name: /books
   link: /books.html
 - name: Now
   slash_name: /now
@@ -10,3 +10,6 @@
 - name: Site
   slash_name: /site
   link: /site-notes.html
+- name: RSS
+  slash_name: /rss
+  link: /feed.xml
