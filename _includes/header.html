@@ -16,27 +16,17 @@
 
 </head>
 
-{% if page.sidebar %}
 
-<body id="body-with-sidebar">{% else %}
+<body>
 
-    <body id="body-no-sidebar">{% endif %}
+    <nav id="main-nav">
+        <a href="/" class="banner-title">Bryan's Digital Garden</a>
+        {% for link in site.data.nav %}
+        <a href="{{ link.link }}">{{ link.slash_name }}</a>
+        {% endfor %}
+    </nav>
 
-        <div class="banner-bg {% if page.sidebar %}banner-bg-sidebar{% else %}banner-bg-default{% endif %}"></div>
-
-        <!-- Banner Navigation, Level 1 -->
-        <div class="banner">
-            <nav class="banner-title">
-                <span><a href="/">Bryan's Digital Garden</a></span>
-            </nav>
-            <nav class="banner-nav">
-                {% for link in site.data.nav %}
-                <span><a href="{{ link.link }}">{{ link.slash_name }}</a></span>
-                {% endfor %}
-            </nav>
-        </div>
-
-        <!-- Header
+    <!-- Header
     <header class="hero">
         <section>
             <span class="hero-accent">My name is Bryan.</span><br>
@@ -45,4 +35,4 @@
     </header>
     -->
 
-        <main>
+    <main>
