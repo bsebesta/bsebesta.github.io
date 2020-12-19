@@ -13,7 +13,7 @@ sections:
   label: Posts
   create: all
 upload_dir: ''
-public_path: ''
+public_path: https://digital-garden.s3-us-west-1.amazonaws.com
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
