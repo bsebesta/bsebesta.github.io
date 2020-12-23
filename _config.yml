@@ -1,9 +1,12 @@
-
 title: Bryan's Digital Garden
 tagline: A place for my thoughts, designs, writing, and code
 description: A place for the thoughts, designs, writing, and code of Bryan Sebesta
 url: bryansebesta.blog
 author: Bryan Sebesta
+collections:
+  books:
+    output: true
+    permalink: /books/:title/
 twitter:
   username: bryan_sebesta
   card: summary
@@ -14,7 +17,6 @@ social:
     - https://bsebesta.micro.blog/
     - https://www.linkedin.com/in/bryansebesta/
     - https://github.com/bsebesta
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

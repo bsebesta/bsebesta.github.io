@@ -384,6 +384,12 @@ html {
     a.active {
         font-weight: 700;
     }
+
+    blockquote {
+        color: var(--color-dim);
+        border-left: solid 5px var(--color-mid);
+        padding-left: 10px;
+    }
     
 /** ============================================================
     NAVIGATION BAR(S)

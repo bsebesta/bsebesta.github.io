@@ -2,7 +2,7 @@
 layout: post
 author: Bryan
 title: 'My First Try with Jekyll '
-tags: jekyll
+tags: web-development jekyll
 ---
 Well, I'm a developer now. That's how it works, no? You find yourself enmeshed in terms like "CI" and "Git" and "Liquid programming" and "Statically generated website," and suddenly—like magic—you're a developer!
 

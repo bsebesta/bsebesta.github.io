@@ -2,7 +2,6 @@
 layout: post
 author: Bryan
 title: From Systematic Planners to Long-term Improvisers
-
 ---
 My brother recently asked me when I thought I'd buy a house. Not only was I incapable of formulating a good answer–I really _don't_ know–but I also struggled to come up with good criteria for answering the question. Buying a house is a major commitment to a _place_, and it depends on things in life (especially my job prospects) _settling_.
 
