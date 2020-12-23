@@ -46,3 +46,15 @@ fields:
       file: 
       path: 
   label: Related Post
+- name: related_book
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: jekyll-pages
+      file: 
+      path: 
+  label: Related Book
