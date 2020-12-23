@@ -1,6 +1,3 @@
-- name: Posts
-  slash_name: /posts
-  link: /posts.html
-- name: RSS
-  slash_name: /rss
-  link: /feed.xml
+- name: Reading
+  slash_name: /books
+  link: /reading.html

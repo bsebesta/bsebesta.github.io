@@ -1,61 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-
-    <!-- Title & SEO -->
-    <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Reading | Bryan’s Digital Garden</title>
-<meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Reading" />
-<meta name="author" content="Bryan Sebesta" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="A place for the thoughts, designs, writing, and code of Bryan Sebesta" />
-<meta property="og:description" content="A place for the thoughts, designs, writing, and code of Bryan Sebesta" />
-<link rel="canonical" href="http://localhost:4000/reading.html" />
-<meta property="og:url" content="http://localhost:4000/reading.html" />
-<meta property="og:site_name" content="Bryan’s Digital Garden" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Reading" />
-<meta name="twitter:site" content="@bryan_sebesta" />
-<meta name="twitter:creator" content="@Bryan Sebesta" />
-<script type="application/ld+json">
-{"url":"http://localhost:4000/reading.html","author":{"@type":"Person","name":"Bryan Sebesta"},"headline":"Reading","description":"A place for the thoughts, designs, writing, and code of Bryan Sebesta","@type":"WebPage","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-
-    <!-- Feed -->
-    <link href="/feed.xml" rel="alternate" type="application/atom+xml" title="Bryan Sebesta" />
-
-    <!-- Styles -->
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="stylesheet" href="https://use.typekit.net/ror6vrt.css">
-
-</head>
-
-
-<body>
-
-    <nav id="main-nav">
-        <a href="/" class="banner-title">Bryan's Digital Garden</a>
-        
-        <a href="/reading.html">/books</a>
-        
-    </nav>
-
-    <!-- Header
-    <header class="hero">
-        <section>
-            <span class="hero-accent">My name is Bryan.</span><br>
-            I read, write and design.<br>
-        </section>
-    </header>
-    -->
-
-    <main>
-
-
+I"�
 <h1 id="reading">Reading</h1>
 
 <p>I love books! Let me tell you about some.</p>
@@ -155,10 +98,4 @@
 * **Lord of the Rings: The Two Towers** by _J.R.R. Tolkein_
 
 -->
-
-
-</main>
-
-</body>
-
-</html>
+:ET
