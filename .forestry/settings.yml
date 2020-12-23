@@ -6,6 +6,10 @@ webhook_url:
 sections:
 - type: heading
   label: My Digital Garden
+- type: document
+  path: index.md
+  label: Home page
+  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
