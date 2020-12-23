@@ -12,6 +12,11 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
+- type: directory
+  path: _books
+  label: Books
+  create: all
+  match: "**/*"
 upload_dir: ''
 public_path: https://digital-garden.s3-us-west-1.amazonaws.com
 front_matter_path: ''
