@@ -1,4 +1,25 @@
 ---
 label: Book Note Post
 hide_body: false
-fields: []
+fields:
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: book
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: books
+      file: 
+      path: 
+  label: Book
