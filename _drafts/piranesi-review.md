@@ -1,5 +1,5 @@
 ---
-layout: Book Note
+layout: book-note
 related_book: _books/piranesi.md
 date: 2020-12-23 16:00:26 -0800
 tags: []
