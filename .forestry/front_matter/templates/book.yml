@@ -12,6 +12,11 @@ fields:
   config:
     required: false
   label: Subtitle
+- name: cover
+  type: file
+  config:
+    maxSize: 64
+  label: Cover
 - name: category
   type: select
   default: []
