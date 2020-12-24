@@ -49,3 +49,5 @@ fields:
 - type: datetime
   name: date
   label: Date
+pages:
+- _books/1st-nephi.md
