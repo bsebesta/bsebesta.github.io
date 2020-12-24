@@ -1,6 +1,7 @@
 ---
-label: Titled Post
+label: Post
 hide_body: false
+display_field: layout
 fields:
 - name: layout
   type: select
