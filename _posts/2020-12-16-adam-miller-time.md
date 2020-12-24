@@ -1,9 +1,11 @@
 ---
-layout: post
+layout: book-note
 title: Discipleship as the End of the World
 author: Bryan
 categories: faith
 fp_visibility: true
+category: Faith
+
 ---
 Adam Miller has a very distinctive style when he writes. It's lucid and electric, a welcome combination given would be an obscure and dry subject: theology. In his recent volume _Mormon: A Brief Theological Introduction_, he's written:
 
