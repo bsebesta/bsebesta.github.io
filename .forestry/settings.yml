@@ -26,7 +26,6 @@ sections:
 - type: document
   path: _data/books.csv
   label: Books Data
-  match: "**/*"
 upload_dir: ''
 public_path: https://digital-garden.s3-us-west-1.amazonaws.com
 front_matter_path: ''
