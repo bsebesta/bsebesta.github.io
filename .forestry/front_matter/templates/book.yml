@@ -59,5 +59,12 @@ fields:
     max: 
     step: 
   label: ISBN
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  hidden: true
+  default: book
 pages:
 - _books/1st-nephi.md
