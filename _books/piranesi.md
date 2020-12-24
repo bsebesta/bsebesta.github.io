@@ -2,5 +2,8 @@
 title: Piranesi
 author: Susanna Clarke
 date: 2020-11-15
+category: Fiction
+author_last: Clarke
+
 ---
-This is a test.
+A wonderful, wonderful book about re-enchantment.
