@@ -68,3 +68,4 @@ fields:
   default: book
 pages:
 - _books/1st-nephi.md
+- _books/mormon.md
