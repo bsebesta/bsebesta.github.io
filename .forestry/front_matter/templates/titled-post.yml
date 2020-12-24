@@ -73,3 +73,5 @@ fields:
   type: boolean
   label: Visible on Front Page
   default: true
+pages:
+- _posts/hello-world.md
