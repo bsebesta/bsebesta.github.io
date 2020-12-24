@@ -11,10 +11,9 @@ sections:
   create: all
 - type: jekyll-pages
   label: Pages
-  create: documents
+  create: all
   templates:
   - page
-  - book
 - type: directory
   path: _books
   label: Books
