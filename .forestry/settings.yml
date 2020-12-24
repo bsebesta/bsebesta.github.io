@@ -6,15 +6,15 @@ webhook_url:
 sections:
 - type: heading
   label: My Digital Garden
-- type: document
-  path: index.md
-  label: Home page
-- type: jekyll-pages
-  label: Pages
-  create: documents
 - type: jekyll-posts
   label: Posts
   create: all
+- type: jekyll-pages
+  label: Pages
+  create: documents
+  templates:
+  - page
+  - book
 - type: directory
   path: _books
   label: Books
