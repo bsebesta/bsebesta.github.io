@@ -13,24 +13,21 @@ fields:
   config:
     required: false
     options:
-    - Reading
     - Faith
-    - Personal
     - Tech & Design
-    - Photos
     source:
       type: simple
       section: jekyll-pages
       file: 
       path: 
   label: Category
-  description: The category (and feed) that my post will appear in
 - name: date
   type: datetime
   label: Date
   description: ''
   config:
     required: false
-    date_format: 
+    date_format: ''
     time_format: 
     display_utc: false
+  default: '2020-12-23 16:00:26 -0800'
