@@ -12,19 +12,6 @@ fields:
   config:
     required: false
   label: Subtitle
-- type: text
-  name: author
-  label: Author
-  config:
-    required: true
-- name: author_last
-  type: text
-  config:
-    required: false
-  label: Author's Last Name
-- type: datetime
-  name: date
-  label: Date
 - name: category
   type: select
   default: []
@@ -40,3 +27,16 @@ fields:
       file: 
       path: 
   label: Category
+- type: text
+  name: author
+  label: Author
+  config:
+    required: true
+- name: author_last
+  type: text
+  config:
+    required: false
+  label: Author's Last Name
+- type: datetime
+  name: date
+  label: Date
