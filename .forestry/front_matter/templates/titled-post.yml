@@ -40,7 +40,7 @@ fields:
   label: Related Book
   showOnly:
     field: layout
-    value: Book Note
+    value: book-note
 - name: date
   type: datetime
   label: Date
