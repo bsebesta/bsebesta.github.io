@@ -10,6 +10,5 @@ author: Joseph Spencer
 author_last: Spencer
 date: 2020-07-31 23:00:00 -0700
 isbn: 9780842500074
-layout: ''
-
+layout: book
 ---
