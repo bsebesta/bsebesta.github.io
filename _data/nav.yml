@@ -1,3 +1,6 @@
+- name: Posts
+  slash_name: /posts
+  link: /posts.html
 - name: Reading
   slash_name: /books
   link: /reading.html

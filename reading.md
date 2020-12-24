@@ -7,9 +7,13 @@ title: Reading
 
 I love books! Let me tell you about some.
 
+<ul>
 {% for book in site.books %}
-* {{ book.title }}
+<li style="margin: .3rem 0;"><span style="background-color: hsl(0,0%,90%); padding: .1rem; border-radius: 3px;">{{ book.category }}</span> <a href="{{ book.url }}">{{ book.title }}</a></li>
 {% endfor %}
+</uL>
+
+
 
 <!--
 {% for entry in site.data.books %}

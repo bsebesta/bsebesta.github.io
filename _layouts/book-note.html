@@ -1,8 +1,17 @@
 {% include header.html %}
 
-<h2>{{ page.title }}</h2>
-{{ content }}
+<em class="pre-h1">Book note</em>
+<h1>{{ page.title }}</h1>
 
+{% assign site_book = site.books where:"path" , page.related_book %}
+
+<!-- Related Book -->
+{% for book in site_book limit:1 %}
+<p><em>Related Book:</em> <a href="{{ book.url }}">{{ book.title }}</a></p>
+<!-- <img src="{{ book.cover }}" /> -->
+{% endfor %}
+
+<!-- Back Button -->
 <p><a href="#" onclick="history.back(-1)">&#8592; Back</a></p>
 
 {% include footer.html %}

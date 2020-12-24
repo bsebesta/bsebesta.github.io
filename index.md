@@ -10,9 +10,3 @@ This is my little corner of the internet. A digital garden, blog, and site for e
 If you want to reach me, you can:
 * [Email me](mailto:hello@bryansebesta.com)
 * Check out [my LinkedIn](https://www.linkedin.com/in/bryansebesta/)
-
-## Posts
-
-{% for post in site.posts %}
-<a href="{{ post.url }}">{{ post.title }}</a>
-{% endfor %}
