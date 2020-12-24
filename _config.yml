@@ -21,3 +21,13 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
+
+page_gen-dirs: true
+
+page_gen:
+- data: books_json
+  template: book
+  dir: all-books
+  index_files: true
+  name: book_name
+  filter: author
