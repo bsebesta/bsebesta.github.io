@@ -65,6 +65,10 @@ fields:
     time_format: 
     display_utc: false
   default: '2020-12-23 16:00:26 -0800'
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
 - name: fp_visibility
   type: boolean
   label: Visible on Front Page
