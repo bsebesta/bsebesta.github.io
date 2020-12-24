@@ -2,11 +2,44 @@
 label: Titled Post
 hide_body: false
 fields:
+- name: layout
+  type: select
+  default: No-title Post
+  config:
+    required: false
+    options:
+    - Post
+    - No-title Post
+    - Book Note
+    - Link
+    - Photo
+    - Design
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Layout
 - name: title
   type: text
   config:
     required: false
   label: Title
+- name: associated_book
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: books
+      file: 
+      path: 
+  label: Book
+  showOnly:
+    field: layout
+    value: Book Note
 - name: category
   type: select
   default: ''
@@ -31,3 +64,7 @@ fields:
     time_format: 
     display_utc: false
   default: '2020-12-23 16:00:26 -0800'
+- name: fp_visibility
+  type: boolean
+  label: Visible on Front Page
+  default: true
