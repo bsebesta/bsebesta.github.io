@@ -24,7 +24,7 @@ sections:
   templates:
   - book
 - type: document
-  path: _data/books.csv
+  path: _data/**/*
   label: Books Data
 upload_dir: ''
 public_path: https://digital-garden.s3-us-west-1.amazonaws.com
