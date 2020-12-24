@@ -23,9 +23,11 @@ sections:
   match: "**/*"
   templates:
   - book
-- type: document
-  path: _data/**/*
-  label: Books Data
+- type: directory
+  path: _data
+  label: Data
+  create: all
+  match: "**/*"
 upload_dir: ''
 public_path: https://digital-garden.s3-us-west-1.amazonaws.com
 front_matter_path: ''
