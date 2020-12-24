@@ -49,3 +49,15 @@ fields:
 - type: datetime
   name: date
   label: Date
+- name: isbn
+  type: number
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+  label: ISBN
+pages:
+- _books/1st-nephi.md
