@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: _data/books.csv
+  label: Books
+  match: "**/*"
 - type: heading
   label: My Digital Garden
 - type: jekyll-posts
