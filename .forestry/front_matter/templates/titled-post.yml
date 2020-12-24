@@ -3,6 +3,11 @@ label: Post
 hide_body: false
 display_field: layout
 fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
 - name: layout
   type: select
   default: No-title Post
@@ -21,11 +26,6 @@ fields:
       file: 
       path: 
   label: Layout
-- name: title
-  type: text
-  config:
-    required: false
-  label: Title
 - name: related_book
   type: select
   default: []
