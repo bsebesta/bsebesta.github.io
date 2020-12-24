@@ -15,6 +15,8 @@ fields:
 - type: text
   name: author
   label: Author
+  config:
+    required: true
 - name: author_last
   type: text
   config:
@@ -27,7 +29,7 @@ fields:
   type: select
   default: []
   config:
-    required: false
+    required: true
     options:
     - Fiction
     - Non-fiction
