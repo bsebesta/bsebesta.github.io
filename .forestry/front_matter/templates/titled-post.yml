@@ -10,16 +10,16 @@ fields:
   label: Title
 - name: layout
   type: select
-  default: No-title Post
+  default: post-no-title
   config:
     required: false
     options:
-    - Post
-    - No-title Post
-    - Book Note
-    - Link
-    - Photo
-    - Design
+    - post
+    - post-no-title
+    - book-note
+    - link
+    - photo
+    - design
     source:
       type: simple
       section: 
