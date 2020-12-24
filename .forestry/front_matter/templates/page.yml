@@ -1,4 +1,32 @@
 ---
 label: Page
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: layout
+  type: select
+  default: default
+  config:
+    required: false
+    options:
+    - default
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Layout
+- name: date
+  type: datetime
+  label: Last Modified
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
