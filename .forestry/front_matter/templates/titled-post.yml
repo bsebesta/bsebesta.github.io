@@ -41,20 +41,6 @@ fields:
   showOnly:
     field: layout
     value: Book Note
-- name: category
-  type: select
-  default: ''
-  config:
-    required: false
-    options:
-    - Faith
-    - Tech & Design
-    source:
-      type: simple
-      section: jekyll-pages
-      file: 
-      path: 
-  label: Category
 - name: date
   type: datetime
   label: Date
@@ -69,6 +55,20 @@ fields:
   type: tag_list
   default: []
   label: Tags
+- name: category
+  type: select
+  default: ''
+  config:
+    required: false
+    options:
+    - Faith
+    - Tech & Design
+    source:
+      type: simple
+      section: jekyll-pages
+      file: 
+      path: 
+  label: Category
 - name: fp_visibility
   type: boolean
   label: Visible on Front Page
