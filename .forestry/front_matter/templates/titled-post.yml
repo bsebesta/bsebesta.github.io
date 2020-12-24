@@ -74,4 +74,5 @@ fields:
   label: Visible on Front Page
   default: true
 pages:
+- _posts/discipleship-as-the-end-of-the-world.md
 - _posts/hello-world.md
