@@ -11,6 +11,5 @@ cover: https://digital-garden.s3-us-west-1.amazonaws.com/book-mormon-a-brief-the
 author: Adam Miller
 author_last: Miller
 date: 2020-12-18 23:00:00 -0800
-published: false
 
 ---
