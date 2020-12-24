@@ -4,10 +4,37 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
+  config:
+    required: true
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
 - type: text
   name: author
-  label: author
+  label: Author
+- name: author_last
+  type: text
+  config:
+    required: false
+  label: Author's Last Name
 - type: datetime
   name: date
-  label: date
+  label: Date
+- name: category
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Fiction
+    - Non-fiction
+    - Reference
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Category
