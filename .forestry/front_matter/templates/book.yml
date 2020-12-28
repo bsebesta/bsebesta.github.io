@@ -66,6 +66,15 @@ fields:
   label: layout
   hidden: true
   default: book
-pages:
-- _books/1st-nephi.md
-- _books/mormon.md
+- name: data
+  type: select
+  default: []
+  config:
+    required: false
+    options: []
+    source:
+      type: pages
+      section: data
+      file: _data/books_json.json
+      path: 
+  label: Data
